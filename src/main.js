@@ -6,9 +6,11 @@ import './assets/tailwind.css'
 import Vuesax from 'vuesax'
 import 'vuesax/dist/vuesax.css' //Vuesax styles
 import VeeValidate from 'vee-validate';
+import Toast from "vue-toastification";
 
 Vue.use(Vuesax)
 Vue.use(VeeValidate)
+Vue.use(Toast)
 Vue.config.productionTip = false
 
 router.beforeEach((to, from, next) => {
