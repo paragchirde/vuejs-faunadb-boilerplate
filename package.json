@@ -17,7 +17,7 @@
         "vee-validate": "^2.2.15",
         "vue-toastification": "^1.2.3",
         "moment": "^2.24.0",
-        "axios": "^0.19.2"
+        "axios": "^0.21.1"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "^4.3.0",
